@@ -1,0 +1,28 @@
+.reputation {
+  margin-top: 50px;
+}
+
+.reputation__title {
+  text-align: center;
+  font-size: 40px;
+  margin: 0 0 35px;
+}
+
+.reputation__cards {
+  display: flex;
+  flex-direction: column;
+}
+
+.reputation__card {
+  border: solid 1px grey;
+  max-width: 500px;
+}
+
+.reputation__card-image {
+}
+
+.reputation__card-title {
+}
+
+.reputation__card-paragraph {
+}
