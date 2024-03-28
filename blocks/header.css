@@ -1,0 +1,71 @@
+.header {
+}
+
+.header__card {
+  position: relative;
+  display: flex;
+}
+
+.header__image {
+  width: 100vw;
+}
+
+.header__title {
+  font-size: 72px;
+  font-weight: 600;
+  max-width: 600px;
+  position: absolute;
+  color: greenyellow;
+  display: flex;
+  align-self: center;
+  padding: auto;
+  left: 10%;
+}
+
+.header__box {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: #fff;
+  background-color: rgb(47, 78, 163);
+  padding: 12px 25px 0;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header__subtitle {
+  margin: 0;
+  font-size: 20px;
+  text-align: center;
+}
+
+.header__paragraph {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.header__button {
+  position: absolute;
+  bottom: 0;
+  width: 50%;
+  border: none;
+  height: 30px;
+  background-color: #292626;
+  color: #fff;
+}
+
+.header__button-back {
+  left: 0;
+}
+
+.header__button-next {
+  right: 0;
+}
+
+.header__button-arrow {
+}
+
+.header__button-arrow_flip {
+  transform: scaleX(-1);
+}

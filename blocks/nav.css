@@ -1,0 +1,27 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 50px;
+  font-size: 17px;
+}
+
+.nav__image {
+  margin: 8px 0;
+  width: 150px;
+}
+
+.nav__links {
+  display: flex;
+  gap: 50px;
+}
+
+.nav__link {
+  list-style-type: none;
+  align-self: center;
+}
+
+.nav__link-contact {
+  font-weight: 600;
+  color: rgb(47, 78, 163);
+}
