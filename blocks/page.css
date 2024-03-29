@@ -1,5 +1,7 @@
 .page {
   font-family: "Work sans", Arial, sans-serif;
+  max-width: 1500px;
+  margin: auto;
 }
 
 .page__content {

@@ -8,6 +8,7 @@
 
 .header__image {
   width: 100vw;
+  height: 800px;
 }
 
 .header__title {
@@ -15,7 +16,7 @@
   font-weight: 600;
   max-width: 600px;
   position: absolute;
-  color: greenyellow;
+  color: #fff;
   display: flex;
   align-self: center;
   padding: auto;

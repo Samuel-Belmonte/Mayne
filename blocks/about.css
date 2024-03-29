@@ -1,0 +1,10 @@
+.about {
+  padding-top: 100px;
+}
+
+.about__image {
+  margin: auto;
+  display: flex;
+  justify-self: center;
+  padding-right: 300px;
+}
