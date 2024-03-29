@@ -19,6 +19,7 @@
 .nav__link {
   list-style-type: none;
   align-self: center;
+  cursor: pointer;
 }
 
 .nav__link-contact {

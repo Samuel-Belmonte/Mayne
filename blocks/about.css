@@ -1,5 +1,8 @@
 .about {
   padding-top: 100px;
+  padding-bottom: 220px;
+  color: #fff;
+  position: relative;
 }
 
 .about__image {
@@ -7,4 +10,35 @@
   display: flex;
   justify-self: center;
   padding-right: 300px;
+}
+
+.about__card {
+  background-color: rgb(47, 78, 163);
+  border-radius: 1.5px;
+  position: absolute;
+  top: 150px;
+  right: 150px;
+  max-width: 410px;
+  height: 450px;
+  padding: 25px;
+}
+
+.about__title {
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+.about__paragraph {
+  font-size: 18px;
+}
+
+.about__button {
+  border: none;
+  border-radius: 3.5px;
+  height: 45px;
+  color: rgb(47, 78, 163);
+  font-weight: 600;
+  padding: 0 15px;
+  cursor: pointer;
+  margin-top: 30px;
 }
