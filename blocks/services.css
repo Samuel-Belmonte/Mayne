@@ -1,5 +1,6 @@
 .services {
   background-color: #f0ebeb;
+  padding-bottom: 100px;
 }
 
 .services__title {
@@ -45,7 +46,7 @@
 }
 
 .services__line-white {
-  background-color: #ff;
+  background-color: #fff;
   width: 60px;
   height: 2px;
   margin: auto;

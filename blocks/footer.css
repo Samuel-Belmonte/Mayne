@@ -1,0 +1,47 @@
+.footer {
+  padding-top: 50px;
+}
+
+.footer__address {
+  font-weight: 600;
+}
+
+.footer__capital {
+  color: rgb(47, 78, 163);
+  font-weight: 600;
+}
+
+.footer__phone {
+  font-weight: 600;
+}
+
+.footer__email {
+  font-weight: 600;
+}
+
+.footer__logo {
+}
+
+.footer__social {
+  color: rgb(47, 78, 163);
+  font-weight: 600;
+}
+
+.footer__social-icon {
+}
+
+.footer__bar {
+  background-color: rgb(47, 78, 163);
+  height: 60px;
+  display: flex;
+}
+
+.footer__text {
+  color: #fff;
+  padding-left: 50px;
+  align-self: center;
+}
+
+.footer__bottom {
+  height: 150px;
+}
