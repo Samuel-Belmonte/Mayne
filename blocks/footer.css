@@ -2,6 +2,10 @@
   padding-top: 50px;
 }
 
+.footer__content {
+  padding: 0 50px;
+}
+
 .footer__address {
   font-weight: 600;
 }

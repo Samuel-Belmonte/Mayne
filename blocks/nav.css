@@ -24,6 +24,7 @@
 
 .nav__link:hover {
   color: rgb(47, 78, 163);
+  font-weight: 700;
 }
 
 .nav__link-contact {
@@ -33,4 +34,5 @@
 
 .nav__link-contact:hover {
   color: rgb(173, 54, 54);
+  font-weight: 700;
 }
