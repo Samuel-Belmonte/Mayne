@@ -22,7 +22,15 @@
   cursor: pointer;
 }
 
+.nav__link:hover {
+  color: rgb(47, 78, 163);
+}
+
 .nav__link-contact {
   font-weight: 600;
   color: rgb(47, 78, 163);
+}
+
+.nav__link-contact:hover {
+  color: rgb(173, 54, 54);
 }
