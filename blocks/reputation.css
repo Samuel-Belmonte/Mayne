@@ -13,6 +13,7 @@
   flex-direction: row;
   gap: 40px;
   margin: auto;
+  padding: 0 25px;
 }
 
 .reputation__card {
@@ -33,4 +34,10 @@
 
 .reputation__card-paragraph {
   color: rgb(160, 155, 155);
+}
+
+@media screen and (max-width: 790px) {
+  .reputation__cards {
+    flex-direction: column;
+  }
 }
