@@ -16,17 +16,40 @@
 }
 
 .contact__fieldset {
+  display: flex;
+  flex-direction: column;
   border: none;
+  position: relative;
 }
 
 .contact__label {
 }
 
 .contact__input {
+  margin-bottom: 20px;
+  max-width: 500px;
+  height: 25px;
 }
+
+.contact__select {
+  margin-bottom: 20px;
+  max-width: 508px;
+  height: 31px;
+}
+
 .contact__textarea {
+  margin-bottom: 20px;
+  max-width: 502px;
+  height: 100px;
+  resize: none;
+}
+
+.contact__button {
+  position: absolute;
+  bottom: -20px;
 }
 
 .contact__map {
   width: 100%;
+  margin-top: 40px;
 }
