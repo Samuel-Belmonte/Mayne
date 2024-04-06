@@ -24,18 +24,20 @@
         <ul class="nav__links">
           <li class="nav__link">Home</li>
           <li class="nav__link">About Us</li>
-          <li class="nav__link">Projects</li>
+          <li class="nav__link">Project Gallery</li>
           <li class="nav__link">Services</li>
           <li class="nav__link nav__link-contact">Contact Us</li>
         </ul>
       </nav>
       <header class="header">
         <div class="header__card">
-          <img
-            src="./images/Asphalt Roller.png"
-            alt="Mayne Trucks"
-            class="header__image"
-          />
+          <div class="header__image-parent">
+            <img
+              src="./images/Asphalt Roller.png"
+              alt="Mayne Trucks"
+              class="header__image"
+            />
+          </div>
           <h1 class="header__title">Building things is our mission.</h1>
           <div class="header__box">
             <h2 class="header__subtitle">Featured Projects</h2>
@@ -189,36 +191,32 @@
           </p>
           <form action="" class="contact__form">
             <fieldset class="contact__fieldset">
-              <label for="" class="contact__label">Name</label>
               <input
                 placeholder="Your full name"
                 type="text"
                 class="contact__input"
               />
 
-              <label for="" class="contact__label">Phone</label>
               <input
                 placeholder="Your phone number"
                 required
-                type="number"
+                type="tel"
                 class="contact__input"
               />
 
-              <label for="" class="contact__label">Email</label>
               <input
                 placeholder="Your email address"
                 required
                 type="email"
                 class="contact__input"
               />
-
-              <label for="" class="contact__label">Type of work</label
-              ><select
+              <select
                 placeholder="Reason for Contacting"
                 name=""
                 id=""
                 class="contact__select"
               >
+                <option disabled selected value="">Project type</option>
                 <option value="demolition">Demolition</option>
                 <option value="carpentry">Carpentry</option>
                 <option value="masonry">Masonry</option>
@@ -226,7 +224,6 @@
                 <option value="asphalt">Asphalt</option>
                 <option value="other">Other</option>
               </select>
-              <label for="" class="contact__label">Message</label>
               <textarea
                 placeholder="Enter message here"
                 name=""
