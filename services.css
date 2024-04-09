@@ -1,18 +1,24 @@
-.pages {
+body {
+  height: 300vh;
 }
 
+/* -------------------------------------------------------------------------- */
+/*                                Nav + Header                                */
+/* -------------------------------------------------------------------------- */
+
 .headerr {
-  background-image: url(./images/Asphalt\ Roller_waifu2x_noise2_scale4x.png);
-  height: 85vh;
+  background-image: url(./images/copy.png);
+  height: 75vh;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   z-index: -2;
+  background-attachment: fixed;
 }
 
 .headerr__overlay {
-  background-color: rgba(0, 0, 0, 0.5);
-  height: 85vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 75vh;
   width: 100%;
   position: absolute;
   content: "";
@@ -21,7 +27,7 @@
 
 .headerr__links {
   display: flex;
-  gap: 30px;
+  gap: 35px;
   justify-content: center;
   z-index: 2;
 }
@@ -34,9 +40,62 @@
   cursor: pointer;
   transition: color 0.3s ease-in-out;
   z-index: 2;
+  font-weight: 500;
+  position: relative;
 }
 
-.headerr__link-quote {
+.headerr__link:after {
+  content: "";
+  position: absolute;
+  background-color: #fff;
+  height: 3px;
+  left: 0;
+  bottom: -6px;
+  transition: 0.3s ease-in-out;
+  width: 0;
+}
+
+.headerr__link:hover {
+  color: #d6d0d0;
+}
+
+.headerr__link:hover:after {
+  width: 100%;
+}
+
+.headerr__button {
+  color: #fff;
+  margin-top: 18px;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 2;
+  font-weight: 600;
+  background: none;
+  border: 2px solid #fff;
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+}
+
+.headerr__button:hover {
+  color: rgb(47, 78, 163);
+}
+
+.headerr__button::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: #fff;
+  z-index: -1;
+  transition: 0.8s;
+  top: 0;
+  border-radius: 0 0 50% 50%;
+}
+
+.headerr__button:hover::before {
+  height: 180%;
 }
 
 .headerr__logo {
@@ -46,4 +105,79 @@
   top: 35%;
   transform: translate(-50%, -50%);
   width: 270px;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                 connect Section                                */
+/* -------------------------------------------------------------------------- */
+
+.connect {
+  padding-top: 60px;
+  padding: 60px 20px 0;
+}
+
+.connect__title {
+  font-size: 40px;
+  text-align: center;
+}
+
+.connect__subtitle {
+  text-align: center;
+  font-size: 20px;
+}
+
+.connect__display {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  gap: calc(100% - 80%);
+}
+
+.connect__form {
+}
+
+.connect__fieldset {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  position: relative;
+}
+
+.connect__label {
+}
+
+.connect__input {
+  margin-bottom: 20px;
+  max-width: 500px;
+  height: 25px;
+}
+
+.connect__select {
+  margin-bottom: 20px;
+  max-width: 508px;
+  height: 31px;
+}
+
+.connect__textarea {
+  margin-bottom: 20px;
+  max-width: 502px;
+  height: 100px;
+  resize: none;
+}
+
+.connect__button {
+  position: absolute;
+  bottom: -20px;
+  border: none;
+  background-color: rgb(47, 78, 163);
+  color: #fff;
+  height: 40px;
+  border-radius: 3.5px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.connect__map {
+  width: 700px;
+  height: 700px;
 }

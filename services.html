@@ -14,7 +14,7 @@
     <title>Mayne Construction</title>
   </head>
   <body>
-    <div class="pages">
+    <div class="page">
       <nav class="headerr">
         <img src="./images/Mayne Logo - Copy-modified.png" alt="" class="headerr__logo">
         <div class="headerr__overlay"></div>
@@ -23,10 +23,74 @@
           <a class="headerr__link" href="./about.html">About Us</a>
           <a class="headerr__link" href="./gallery.html">Project Gallery</a>
           <a class="headerr__link" href="./services.html">Services</a></li>
-          <a class="headerr__link headerr__link-quote" href="">Request A Quote</a>
+          <button class="headerr__button">Request A Quote</button>
         </div>
       </nav>
       <main>
+        <section class="connect">
+      <h2 class="connect__title">Contact Us</h2>
+          <p class="connect__subtitle">
+            Please fill out the form below to get in connect with us
+          </p>
+          <div class="connect__display">
+          <form action="" class="connect__form">
+            <fieldset class="connect__fieldset">
+              <input
+                placeholder="Your full name"
+                type="text"
+                class="connect__input"
+              />
+
+              <input
+                placeholder="Your phone number"
+                required
+                type="tel"
+                class="connect__input"
+              />
+
+              <input
+                placeholder="Your email address"
+                required
+                type="email"
+                class="connect__input"
+              />
+              <select
+                placeholder="Reason for connecting"
+                name=""
+                id=""
+                class="connect__select"
+              >
+                <option disabled selected value="">Project type</option>
+                <option value="demolition">Demolition</option>
+                <option value="carpentry">Carpentry</option>
+                <option value="masonry">Masonry</option>
+                <option value="concrete">Concrete</option>
+                <option value="asphalt">Asphalt</option>
+                <option value="other">Other</option>
+              </select>
+              <textarea
+                placeholder="Enter message here"
+                name=""
+                id=""
+                cols="30"
+                rows="10"
+                class="connect__textarea"
+              ></textarea>
+              <button class="connect__button">Send Message</button>
+            </fieldset>
+          </form>
+          <iframe
+        class="connect__map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3019.819795951687!2d-73.03915172255746!3d40.809953571379225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e848813deb59b5%3A0x43753e096dd595a8!2s664%20Blue%20Point%20Rd%2C%20Holtsville%2C%20NY%2011742!5e0!3m2!1sen!2sus!4v1712371480364!5m2!1sen!2sus"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+        </section>
       </main>
       <footer class="footer">
       </footer>
