@@ -1,0 +1,49 @@
+.pages {
+}
+
+.headerr {
+  background-image: url(./images/Asphalt\ Roller_waifu2x_noise2_scale4x.png);
+  height: 85vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: -2;
+}
+
+.headerr__overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 85vh;
+  width: 100%;
+  position: absolute;
+  content: "";
+  z-index: 1;
+}
+
+.headerr__links {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  z-index: 2;
+}
+
+.headerr__link {
+  color: #fff;
+  text-decoration: none;
+  margin-top: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+  z-index: 2;
+}
+
+.headerr__link-quote {
+}
+
+.headerr__logo {
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  top: 35%;
+  transform: translate(-50%, -50%);
+  width: 270px;
+}

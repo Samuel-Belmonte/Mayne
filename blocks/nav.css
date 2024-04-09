@@ -28,12 +28,16 @@
   font-weight: 700;
 }
 
-.nav__link-contact {
+.nav__link-quote {
   font-weight: 600;
-  color: rgb(47, 78, 163);
+  color: #fff;
+  background-color: rgb(47, 78, 163);
+  border-radius: 4px;
+  padding: 5px;
 }
 
-.nav__link-contact:hover {
-  color: rgb(173, 54, 54);
+.nav__link-quote:hover {
+  background-color: rgb(173, 54, 54);
   font-weight: 700;
+  color: #fff;
 }
